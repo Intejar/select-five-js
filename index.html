@@ -114,7 +114,7 @@
                     </div>
                   </div>
                 </div>
-                <div class=" col-md-3">
+                <div class="d-none d-md-block col-md-3">
                   <div class="card h-50">
                     <h1>select V</h1>
                     <div class="card-body">
@@ -435,30 +435,73 @@
                   </div>
                 </div>
         </section>
+        <!-- only for small devices -->
+        <section class="container mb-5  d-md-none">
+          <div class="row">
+            <div class="col-6">
+              <div class="card h-50">
+                <h1>select V</h1>
+                <div class="card-body">
+                  <ol id="add-player">
+  
+                  </ol>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="card h-100">
+                <h1>Budget</h1>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-6 fw-bold ">Per Player</div>
+                        <div class="col-6"><input type="text" class="input-box" placeholder="$" id="per-player-cost"></div>
+                    </div>
+                    <div class="d-flex justify-content-center"><button  class="select-btn mt-2" id="calculate-expense">calculate</button></div>
+                    <div class="row">
+                        <div class="col-8 fw-bold ">Player Expense</div>
+                        <div class="col-4"> $ <span id="player-expense"></span></div>
+                    </div><div class="row">
+                        <div class="col-6 fw-bold ">Manager</div>
+                        <div class="col-6"><input type="text" class="input-box" placeholder="$" id="manager-cost"></div>
+                    </div><div class="row">
+                        <div class="col-6 fw-bold ">Coach</div>
+                        <div class="col-6"><input type="text" class="input-box" placeholder="$" id="coach-cost"></div>
+                    </div>
+                    <div class="d-flex justify-content-center"><button  class="select-btn mt-2" id="calculate-total">calculate total</button></div>
+                    <div class="row">
+                        <div class="col-8 fw-bold ">Player Expense</div>
+                        <div class="col-4"> $ <span id="total-cost"></span></div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </section>
     </main>
     <footer class=" p-5">
         <div id="footer">
             <div class="row">
-              <div class="col-3 d-flex align-items-center">
+              <div class="col col-md-3  d-flex align-items-center">
                 <i class="fa-brands fa-square-facebook fa-size"></i>
                 <i class="fa-brands fa-square-twitter fa-size"></i>
                 <i class="fa-brands fa-square-instagram fa-size"></i>
               </div>
-              <div class="col-3">
+              <div class="col-6 col-md-3">
                 <h1>About BCB</h1>
                 <p><a href="#">President</a></p>
                 <p><a href="#">Board Of Directors</a></p>
                 <p><a href="#">Chief Excixutive Officer</a></p>
                 <p><a href="#">Standing Comittee</a></p>
               </div>
-              <div class="col-3">
+              <div class="col-6 col-md-3">
                 <h1>Midea Links</h1>
                 <p><a href="#">News</a></p>
                 <p><a href="#">Media Releases</a></p>
                 <p><a href="#">Fixtures</a></p>
                 <p><a href="#">Photo & Video Gallery</a></p>
               </div>
-              <div class="col-3">
+              <div class="col-6 col-md-3">
                 <h1>Other Links</h1>
                 <p><a href="#">High Performance</a></p>
                 <p><a href="#">Development Programe</a></p>
