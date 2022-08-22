@@ -1,26 +1,29 @@
 body{
     background-color: grey;
 }
+
 .banner-bg{
-    background-color: rgba(16, 26, 16);
+    background-image: url(pic/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     border-radius: 2em;
     border: 5px solid rgb(107, 2, 2);
 }
-#bcb-logo{
-    height: 100px;
-    width: 100px;
-}
+
 .heading{
     font-size: 4em;
     color: orange;
+   
 }
 #para{
     font-size: 1em;
     color: white;
+
 }
 #text-color{
     color: rgb(252, 81, 18);
 }
+
 .card-body{
     background-color: rgb(16, 26, 16);
     color: white;
@@ -36,7 +39,7 @@ body{
     color: white;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: rgb(6, 75, 6);
+    background-color:#75a68e;
     border: 2px solid rgb(107, 2, 2);
 }
 .select-btn:hover{
@@ -59,4 +62,11 @@ footer a{
 .fa-size{
     font-size: 2em;
     padding: 1em;
+}
+.table:hover{
+    color: white;
+}
+.table td:hover{
+    color: rgb(6, 75, 6);
+    font-weight: 600;
 }

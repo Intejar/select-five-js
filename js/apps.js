@@ -31,7 +31,7 @@ addPlayerName('select-mushfiq-btn', 'player-mushfiq');
 addPlayerName('select-mahmudullah-btn', 'player-mahmudullah');
 addPlayerName('select-liton-btn', 'player-liton');
 addPlayerName('select-sakib-btn', 'player-sakib');
-addPlayerName('select-yasir-btn', 'player-yasir');
+addPlayerName('select-sabbir-btn', 'player-sabbir');
 addPlayerName('select-fiz-btn', 'player-fiz');
 addPlayerName('select-shommo-btn', 'player-shommo');
 addPlayerName('select-mehedi-btn', 'player-mehedi');
