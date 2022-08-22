@@ -1,20 +1,20 @@
 body{
-    background-color: grey;
+    background-color: #c2f0da;
     font-family: 'Poppins', sans-serif;
 
 }
 
 .banner-bg{
-    background-image: url(pic/bg.png);
+    background-image: url(pic/bg\ \(1\).png);
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 2em;
-    border: 5px solid rgb(107, 2, 2);
+    border: 3px solid rgb(107, 2, 2);
 }
 
 .heading{
     font-size: 4em;
-    color: orange;
+    color: rgb(24, 56, 24);
    
 }
 #para{
@@ -23,7 +23,7 @@ body{
 
 }
 #text-color{
-    color: rgb(252, 81, 18);
+    color: rgb(219, 62, 5);
 }
 
 .card-body{
@@ -37,8 +37,8 @@ body{
 .select-btn{
     width: 12em;
     font-size: large;
-    font-weight: bold;
-    color: white;
+    font-weight: 700;
+    color: rgb(24, 56, 24);
     padding-top: 1rem;
     padding-bottom: 1rem;
     background-color:#75a68e;
