@@ -1,4 +1,11 @@
+// function for getting interger value 
 
+function makeInputValueInt(element){
+    const getNumber = document.getElementById(element);
+    const makeInteger = parseFloat(getNumber.value);
+    return makeInteger;
+}
+// funtion for adding player by clicking 
 function addPlayerName(selectByID, nameById) {
     const playerName = document.getElementById(nameById);
     const selectButton = document.getElementById(selectByID);
@@ -39,12 +46,8 @@ addPlayerName('select-saifuddin-btn', 'player-saifuddin');
 addPlayerName('select-musaddek-btn', 'player-musaddek');
 addPlayerName('select-mithun-btn', 'player-mithun');
 
-function makeInputValueInt(element){
-    const getNumber = document.getElementById(element);
-    const makeInteger = parseFloat(getNumber.value);
-    return makeInteger;
-}
 
+// calculation of expenses
 const calculate = document.getElementById('calculate-expense');
 calculate.addEventListener('click', function () {
     const getNumberOfPlayer = document.getElementById('add-player').getElementsByTagName('li');
@@ -70,7 +73,10 @@ calculateTotal.addEventListener('click',function(){
     if(isNaN(playerCost,managerCost,coachCost)){
         alert('Please input a valid number');
     }
-    prevTotalCost.innerText = totalCost;
+    else{
+        prevTotalCost.innerText = totalCost;
+
+    }
 })
 
 
