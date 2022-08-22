@@ -1,0 +1,451 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <header class="container my-5">
+        <div class="banner-bg pt-5">
+            <div class="row">
+              <div class="col-4"><img src="pic/3 IN 1 PIC.png" class="img-fluid" alt=""></div>
+              <div class="col-6"><h1 class="mt-5 text-center fw-bold heading">Select Best <span id="text-color">Five</span></h1> <p class="text-center" id="para">Welcome to BPL selection board. Here you can select your best five bangladeshi cricket players.</p></div>
+              <div class="col-2"><img src="pic/Bangladesh_Cricket_Board_Logo.svg.png" class="img-fluid" id="bcb-logo" alt=""></div>
+            </div>
+    </header>
+    <main>
+        <section class="container mb-5">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class=" col-md-3">
+                  <div class="card">
+                    <img src="pic/Tamim.png" class=" " alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bold"><span id="player-tamim">Tamim Iqbal</span></h5>
+                      <table class="table table-hover table-color">
+                        <thead>
+                          <tr>
+                            <th scope="col"> </th>
+                            <th scope="col">ODI</th>
+                            <th scope="col">T20</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">Batting</th>
+                            <td>20</td>
+                            <td>30</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Bowling</th>
+                            <td>---</td>
+                            <td>---</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <button class="select-btn" id="select-tamim-btn">select</button>
+                    </div>
+                  </div>
+                </div>
+                <div class=" col-md-3">
+                  <div class="card">
+                    <img src="pic/Mushfiqur-Rahim.png" class="img-fluid" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bold" id="player-mushfiq">Mushfiqur Rahim</h5>
+                      <table class="table table-hover table-color">
+                        <thead>
+                          <tr>
+                            <th scope="col"> </th>
+                            <th scope="col">ODI</th>
+                            <th scope="col">T20</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">Batting</th>
+                            <td>20</td>
+                            <td>30</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Bowling</th>
+                            <td>---</td>
+                            <td>---</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <button class="select-btn" id="select-mushfiq-btn">select</button>
+                    </div>
+                  </div>
+                </div>
+                <div class=" col-md-3">
+                  <div class="card">
+                    <div class=""><img src="pic/Shakib-Al-Hasan.png" class=" img-fluid" alt="..."></div>
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bold"><span id="player-sakib">Sakib Al Hasan</span></h5>
+                      <table class="table table-hover table-color">
+                        <thead>
+                          <tr>
+                            <th scope="col"> </th>
+                            <th scope="col">ODI</th>
+                            <th scope="col">T20</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">Batting</th>
+                            <td>20</td>
+                            <td>30</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Bowling</th>
+                            <td>---</td>
+                            <td>---</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <button class="select-btn" id="select-sakib-btn">select</button>
+                    </div>
+                  </div>
+                </div>
+                <div class=" col-md-3">
+                  <div class="card h-50">
+                    <h1>select V</h1>
+                    <div class="card-body">
+                      <ol id="add-player">
+
+                      </ol>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+        <section class="container mb-5">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col-md-3">
+                  <div class="card">
+                    <img src="pic/Mahmudullah.png" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bold" id="player-mahmudullah">Mahmudulla Riad</h5>
+                      <table class="table table-hover table-color">
+                        <thead>
+                          <tr>
+                            <th scope="col"> </th>
+                            <th scope="col">ODI</th>
+                            <th scope="col">T20</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">Batting</th>
+                            <td>20</td>
+                            <td>30</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Bowling</th>
+                            <td>---</td>
+                            <td>---</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <button class="select-btn" id="select-mahmudullah-btn">select</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="card">
+                    <img src="pic/Mustafizur-Rahman.png" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bold" id="player-fiz">Mushfiqur Rahman</h5>
+                      <table class="table table-hover table-color">
+                        <thead>
+                          <tr>
+                            <th scope="col"> </th>
+                            <th scope="col">ODI</th>
+                            <th scope="col">T20</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">Batting</th>
+                            <td>20</td>
+                            <td>30</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Bowling</th>
+                            <td>---</td>
+                            <td>---</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <button class="select-btn" id="select-fiz-btn">select</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="card">
+                    <img src="pic/Mohammad-Mithun-CWC19.png" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bold" id="player-mithun">Mohammad-Mithun</h5>
+                      <table class="table table-hover table-color">
+                        <thead>
+                          <tr>
+                            <th scope="col"> </th>
+                            <th scope="col">ODI</th>
+                            <th scope="col">T20</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">Batting</th>
+                            <td>20</td>
+                            <td>30</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Bowling</th>
+                            <td>---</td>
+                            <td>---</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <button class="select-btn" id="select-mithun-btn">select</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="card h-100">
+                    <h1>Budget</h1>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-6 fw-bold ">Per Player</div>
+                            <div class="col-6"><input type="text" class="input-box" placeholder="$" id="per-player-cost"></div>
+                        </div>
+                        <div class="d-flex justify-content-center"><button  class="select-btn mt-2" id="calculate-expense">calculate</button></div>
+                        <div class="row">
+                            <div class="col-8 fw-bold ">Player Expense</div>
+                            <div class="col-4"> $ <span id="player-expense"></span></div>
+                        </div><div class="row">
+                            <div class="col-6 fw-bold ">Manager</div>
+                            <div class="col-6"><input type="text" class="input-box" placeholder="$" id="manager-cost"></div>
+                        </div><div class="row">
+                            <div class="col-6 fw-bold ">Coach</div>
+                            <div class="col-6"><input type="text" class="input-box" placeholder="$" id="coach-cost"></div>
+                        </div>
+                        <div class="d-flex justify-content-center"><button  class="select-btn mt-2" id="calculate-total">calculate total</button></div>
+                        <div class="row">
+                            <div class="col-8 fw-bold ">Player Expense</div>
+                            <div class="col-4"> $ <span id="total-cost"></span></div>
+
+                        
+                  
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+        <section class="container mb-5">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col-md-3">
+                  <div class="card">
+                    <img src="pic/Liton-Das.png" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bold" id="player-liton">Liton Das</h5>
+                      <table class="table table-hover table-color">
+                        <thead>
+                          <tr>
+                            <th scope="col"> </th>
+                            <th scope="col">ODI</th>
+                            <th scope="col">T20</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">Batting</th>
+                            <td>20</td>
+                            <td>30</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Bowling</th>
+                            <td>---</td>
+                            <td>---</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <button class="select-btn" id="select-liton-btn">select</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="card">
+                    <img src="pic/shommo.png" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bold" id="player-shommo">Shommo Sorkar</h5>
+                      <table class="table table-hover table-color">
+                        <thead>
+                          <tr>
+                            <th scope="col"> </th>
+                            <th scope="col">ODI</th>
+                            <th scope="col">T20</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">Batting</th>
+                            <td>20</td>
+                            <td>30</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Bowling</th>
+                            <td>---</td>
+                            <td>---</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <button class="select-btn" id="select-shommo-btn">select</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="card">
+                    <img src="pic/Mehedi-Hasan-CWC19.png" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bold" id="player-mehedi">Mehedi Hasan</h5>
+                      <table class="table table-hover table-color">
+                        <thead>
+                          <tr>
+                            <th scope="col"> </th>
+                            <th scope="col">ODI</th>
+                            <th scope="col">T20</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">Batting</th>
+                            <td>20</td>
+                            <td>30</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Bowling</th>
+                            <td>---</td>
+                            <td>---</td>
+                          </tr>
+                        </tbody>
+                      </table> 
+                      <button class="select-btn" id="select-mehedi-btn">select</button>
+                    </div>
+                  </div>
+                </div>
+        </section>
+        <section class="container mb-5">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col-md-3">
+                  <div class="card">
+                    <img src="pic/Mohammad-Saifuddin-CWC19.png" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bold" id="player-saifuddin">Mohammad Saifuddin</h5>
+                      <table class="table table-hover table-color">
+                        <thead>
+                          <tr>
+                            <th scope="col"> </th>
+                            <th scope="col">ODI</th>
+                            <th scope="col">T20</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">Batting</th>
+                            <td>20</td>
+                            <td>30</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Bowling</th>
+                            <td>---</td>
+                            <td>---</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <button class="select-btn" id="select-saifuddin-btn">select</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="card">
+                    <img src="pic/musaddek.png" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bold" id="player-musaddek">Musaddek</h5>
+                      <table class="table table-hover table-color">
+                        <thead>
+                          <tr>
+                            <th scope="col"> </th>
+                            <th scope="col">ODI</th>
+                            <th scope="col">T20</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">Batting</th>
+                            <td>20</td>
+                            <td>30</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Bowling</th>
+                            <td>---</td>
+                            <td>---</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <button class="select-btn" id="select-musaddek-btn">select</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="card">
+                    <img src="pic/yasir-ali-daily-sun.jpg" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bold" id="player-yasir">Yasir Ali</h5>
+                      <table class="table table-hover table-color">
+                        <thead>
+                          <tr>
+                            <th scope="col"> </th>
+                            <th scope="col">ODI</th>
+                            <th scope="col">T20</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">Batting</th>
+                            <td>20</td>
+                            <td>30</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Bowling</th>
+                            <td>---</td>
+                            <td>---</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <button class="select-btn" id="select-yasir-btn">select</button>
+                    </div>
+                  </div>
+                </div>
+        </section>
+    </main>
+    <footer class=" p-5">
+        <div>
+            <hr>
+            <p class="text-center"> copy all right reserved</p>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="js/apps.js"></script>
+  </body>
+</html>
